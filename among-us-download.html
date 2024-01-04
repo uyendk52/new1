@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NRTQQFC');</script>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Among us - Download</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/simplePagination.css">
+    <link rel="stylesheet" href="./css/style2.css">
+  
+
+</head>
+  <body>
+<!-- Google Tag Manager (noscript) --> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRTQQFC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+   <div class="preloader">
+  <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+</div>
+
+<style>
+  .preloader {
+      background: #fff;
+      height: 100%;
+      position: fixed;
+      left: 0; top: 0; bottom: 0; right: 0;
+      text-align: center;
+      z-index: 9999;
+  }
+  .loader {
+      position: fixed;
+      width: 84px;
+      height: 84px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .loader span {
+      display: block;
+      width: 35px;
+      height: 8px;
+      border-radius: 4px;
+      background: #5d44eb;
+      position: absolute;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease;
+  }
+  .loader span:nth-of-type(4n - 3) {
+      left: 24.5px;
+      animation-name: rotate1;
+  }
+  .loader span:nth-of-type(3) {
+      left: 2px;
+  }
+  .loader span:nth-of-type(7) {
+      right: 2px;
+  }
+  .loader span:nth-of-type(4n-1) {
+      top: 24.5px;
+      width: 8px;
+      height: 35px;
+      animation-name: rotate1;
+  }
+  .loader span:nth-of-type(5) {
+      bottom: 0;
+  }
+  .loader span:nth-of-type(4n - 2) {
+      transform: rotate(-45deg);
+      animation-name: rotate2;
+  }
+  .loader span:nth-of-type(2) {
+      top: 12px;
+  }
+  .loader span:nth-of-type(6) {
+      bottom: 12px;
+      right: 0;
+  }
+  .loader span:nth-of-type(4n) {
+      transform: rotate(45deg);
+      animation-name: rotate3;
+  }
+  .loader span:nth-of-type(4) {
+      bottom: 12px;
+  }
+  span:nth-of-type(8) {
+      top: 12px;
+      right: 0;
+  }
+  @keyframes  rotate1 {
+      from {
+          transform: rotate(0deg);
+      }
+      to {
+          transform: rotate(180deg);
+      }
+  }
+  @keyframes  rotate2 {
+      from {
+          transform: rotate(-45deg);
+      }
+      to {
+          transform: rotate(135deg);
+      }
+  }
+  @keyframes  rotate3 {
+      from {
+          transform: rotate(45deg);
+      }
+      to {
+          transform: rotate(225deg);
+      }
+  }
+
+</style>
+<script>
+  window.preloader = function () {
+      if (window.isPreloaderHidden()) {
+          return;
+      }
+
+      var loaderBg = document.querySelector('.preloader');
+      loaderBg.style.opacity = 1;
+
+      (function fade() {
+          if ((loaderBg.style.opacity -= .05) < 0) {
+              loaderBg.style.display = "none";
+          } else {
+              requestAnimationFrame(fade);
+          }
+      })();
+  }
+
+  window.isPreloaderHidden = function () {
+      var loaderBg = document.querySelector('.preloader');
+      return loaderBg.style.display === 'none';
+  }
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $('.preloader').show(0).delay(3000).hide(0);
+</script>
+    <div class="page download pageload">
+      <div class="header" id="header">
+        <div class="container">
+          <div class="logo">
+            <a href="https://sguy.net/" class="image">VerbaLearn</a>
+          </div>
+          <div class="nav">
+            <div class="search">
+              <form action="" method="get">
+                <input type="text" placeholder="Search" />
+                <button class="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+            <div class="navbar">
+              <div class="item">
+                <a href="review.html" class="link">App Reviews</a>
+              </div>
+              <div class="item">
+                <a href="about-us.html" class="link">About us</a>
+              </div>
+            </div>
+          </div>
+          <div class="close button" id="close-button">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+      <div class="header-mobile">
+        <div class="list-button" id="list-button">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+          <a href="https://sguy.net/" class="image">VerbaLearn</a>
+        </div>
+      </div>
+      <div class="body">
+        <div class="container">
+          <div class="section breadcrumbs">
+            <a href="https://sguy.net/" class="title">Home</a>
+            <i class="fa-solid fa-arrow-right"></i>
+            <a href="#" class="title">Action</a>
+            <i class="fa-solid fa-arrow-right"></i>
+            <a href="#" class="title">Among us</a>
+            <i class="fa-solid fa-arrow-right"></i>
+            <span class="title">Get app</span>
+          </div>
+          <div class="section content">
+            <div class="main-content">
+
+              <center><span style="font-size:10px">Advertisement</center>
+<br />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7829188793211907"
+     crossorigin="anonymous"></script>
+<!-- Nam_05/04 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7829188793211907"
+     data-ad-slot="4684317980"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+              
+              <br />
+<div class="section app">
+                <div class="card">
+                  <div class="image">
+                    <img src="./images/a1.png" alt="game" />
+                  </div>
+                  <div class="content">
+                    <div class="title"><a href="among-us-download.html">Among us</a></div>
+                    <div class="rating-star">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section slider">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="./images/a2.png" alt="fortnite" />
+                  </div>
+                  <div class="item">
+                    <img src="./images/a3.png" alt="fortnite" />
+                  </div>
+                  <div class="item">
+                    <img src="./images/a4.png" alt="fortnite" />
+                  </div>
+                </div>
+              </div>
+              <div class="section get-app">
+                <div class="left">
+                  <div class="title">Get from the official digital markets</div>
+                  <div class="sub-title">
+                    All trademarks belong to their respective owners.
+                  </div>
+                </div>
+                <div class="right">
+                  <a href="https://sguy.net/" class="button"><i class="ri-download-line"></i> Play Game</a>
+                </div>
+              </div>
+                  <center><span style="font-size:10px">Advertisement</center>
+<br />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7829188793211907"
+     crossorigin="anonymous"></script>
+<!-- Nam_05/04 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7829188793211907"
+     data-ad-slot="4684317980"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+              
+              <br />
+              <div class="section questions">
+                <div class="header">Frequently asked questions</div>
+                <div class="body">
+                  <div class="accordion">
+                    <div class="item">
+                      <div class="title">
+                        <span>Among US VR: Here’s what to expect</span>
+                        <i class="ri-add-fill"></i>
+                      </div>
+                      <div class="content">
+                        This holiday, the popular game Among Us will introduce their first-person view gaming version. First announced at The Game Awards 2021, Among Us VR shows a short gameplay teaser where players go around the Skeld (the first map of Among Us) doing tasks on a keypad before a crewmember shows up behind. Here are some new cool features that only the VR version of the game offers.
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="title">
+                        <span>Among Us: New Task!</span>
+                        <i class="ri-add-fill"></i>
+                      </div>
+                      <div class="content">
+                        The so-called “Tasks” will be far different this time around in the VR version. In the trailer, one of these new minigames is Reaction Time. This is a whack-a-mole minigame where you will be tested to see how quick you are. “If you can beat nine seconds, you’re better than the director of the game” - said the project director Mike Trafficante in an interview on Techradar. Moreover, some original tasks will be added with new visual elements.
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="title">
+                        <span>First-person Perspective: New features</span>
+                        <i class="ri-add-fill"></i>
+                      </div>
+                      <div class="content">
+                        With this updated first-person perspective from the original top-down view, you can expect significant changes in your awareness of the surroundings. Now, even when you and your friends are together as a group in one room, it’s still easy for the Impostors to sneak in and steal a kill since everyone’s having a first-person view. 
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="title">
+                        <span>Among Us: Proximity Chat</span>
+                        <i class="ri-add-fill"></i>
+                      </div>
+                      <div class="content">
+                        With the help of the VR headsets, the gaming experience is enhanced since you can talk to your friends (crewmates) & hear what is going on. And if you’re an impostor, you can even hear everything while hiding behind a door frame.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="description-section">
+                <div class="description-block">
+                  <div class="block-title">
+                    <h3 class="title">How to get Among us</h3>
+                    <hr />
+                  </div>
+                  <div class="app-info-content">
+                    <p>This page contains links to the official sources of the app Among us. So that you do not have problems with getting the app, we have prepared a detailed instruction.</p>
+                    <p>&nbsp;</p>
+                    <h4>How to get Among us from the official store.</h4>
+                    <p>To quickly and painlessly get the Among us app on the Official Store, you should use the following instructions.</p>
+                    <ol style="margin-left: 15px">
+                      <li>Go to the Get for PC button.</li>
+                      <li>If you use a browser on a PC or mobile device, you'll go to the Among us app page on the official store website.</li>
+                    </ol>
+                    <p>To get the app through the browser, you need to log in to your account in the store and add it to the library.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="section categories">
+                <div class="header">Categories</div>
+                <div class="body">
+                  <a href="#" class="button">amongus</a>
+                  <a href="#" class="button">amongusclips</a>
+                  <a href="#" class="button">amongusgame</a>
+                  <a href="#" class="button">amonguscommunity</a>
+                  <a href="#" class="button">amongusmemes</a>
+                  <a href="#" class="button">amongusbattleroyale</a>
+                  <a href="#" class="button">amongusbr</a>
+                  <a href="#" class="button">amongusgameplay</a>
+                  <a href="#" class="button">amonguspc</a>
+                  <a href="#" class="button">amongusios</a>
+                  <a href="#" class="button">amongusandroid</a>
+                  <a href="#" class="button">amongusclansrecruiting</a>
+                  <a href="#" class="button">amongusnews</a>
+                  <a href="#" class="button">amongusleaks</a>
+                  <a href="#" class="button">amongusmontage</a>
+                  <a href="#" class="button">amongusgameming</a>
+                  <a href="#" class="button">amongusps</a>
+                </div>
+              </div>
+              <section class="comments-section">
+                <div class="laguna-comments-wrapper">
+                  <div class="comments-block-container block-padding bgw block-border">
+                    <div class="comments-commun-block">
+                      <div class="add-comment-form-block">
+                        <h2 class="block-title small leave-comment-title">Leave a comment</h2>
+                        <form class="add-comment-form" id="comment-form" method="post" action="#">
+                          <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                          <div class="union-block">
+                            <div class="form-group">
+                              <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                            </div>
+                            <div class="form-group">
+                              <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <textarea name="text" class="custom-textarea comment" placeholder="Comment*" required=""></textarea>
+                          </div>
+                          <div class="feedback-and-agreement">
+                            <div class="agreement-block">
+                              <input type="checkbox" name="policy" id="comment-policy-agree" value="1" class="custom-checkbox" required="" />
+                              <label for="comment-policy-agree" class="custom-checkbox-label">
+                              <span class="text">I read and agree the</span>
+                              <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                              </label>
+                            </div>
+                          </div>
+                          
+                          <input type="hidden" name="commentable_type" value="App\Product" />
+                          <input type="hidden" name="commentable_id" value="27919" />
+                          <div class="btn-container">
+                            <button type="submit" class="simple-btn submit-btn send-comment-btn">
+                            Add a comment
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block" role="alert" style="display: none"></div>
+                      <div class="alert alert-info ajax-info mt-15" id="ajax-info-block" role="alert" style="display: none">
+                        <p>Your comment is awaiting moderation. We save your draft here</p>
+                      </div>
+                      <div class="comments-list-container">
+                        <h3 class="title"><span class="count" id="comments-count">146</span> Comments</h3>
+                        <ul class="comments-list">
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Angela Martin</div>
+                                    <div class="time">added 3 days ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>I want to play with my friend</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3760" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3760" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3760" required="" />
+                                  <label for="agreement-checkbox-reply-3760" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3760" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3760" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3760">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3760" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3760" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3760"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src=#></div>
+                                  <div class="concise">
+                                    <div class="nickname">Rob Lucci</div>
+                                    <div class="time">added 6 days ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>This game is awesome</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3716" method="post" style="display: none" #>
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3716" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3716" required="" />
+                                  <label for="agreement-checkbox-reply-3716" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3716" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3716" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3716">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3716" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3716" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3716"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Ice Burk</div>
+                                    <div class="time">added 6 days ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>Love game</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3715" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3715" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3715" required="" />
+                                  <label for="agreement-checkbox-reply-3715" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3715" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3715" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3715">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3715" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3715" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3715"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Franky Mary</div>
+                                    <div class="time">added 1 week ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>good</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3698" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3698" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3698" required="" />
+                                  <label for="agreement-checkbox-reply-3698" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="#" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3698" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3698" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3698">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3698" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3698" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3698"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Mr Park</div>
+                                    <div class="time">added 1 week ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>relax</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3676" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3676" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3676" required="" />
+                                  <label for="agreement-checkbox-reply-3676" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3676" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3676" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3676">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3676" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3676" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3676"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Amanda</div>
+                                    <div class="time">added 3 days ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>I want to play with my friend</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3760" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3760" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3760" required="" />
+                                  <label for="agreement-checkbox-reply-3760" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3760" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3760" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3760">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3760" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3760" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3760"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Yeorim Kim</div>
+                                    <div class="time">added 6 days ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>Love game</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3715" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3715" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3715" required="" />
+                                  <label for="agreement-checkbox-reply-3715" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3715" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3715" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3715">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3715" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3715" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3715"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Boa Jone</div>
+                                    <div class="time">added 1 week ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>I love this game</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3698" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3698" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3698" required="" />
+                                  <label for="agreement-checkbox-reply-3698" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="#" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3698" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3698" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3698">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3698" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3698" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3698"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Awah</div>
+                                    <div class="time">added 1 week ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>I love everything in game, so relax</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3676" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3676" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3676" required="" />
+                                  <label for="agreement-checkbox-reply-3676" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3676" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3676" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3676">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3676" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3676" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3676"></ul>
+                          </li>
+                          <li>
+                            <div class="comment-item">
+                              <div class="title-part">
+                                <div class="user-info">
+                                  <div class="avatar has-avatar lazy" data-src="#"></div>
+                                  <div class="concise">
+                                    <div class="nickname">Crocodile</div>
+                                    <div class="time">added 3 days ago</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="body-part">
+                                <div>I want to play with my friend</div>
+                                <a href="#close" class="link">Read more</a>
+                              </div>
+                              
+                            </div>
+                            <form class="add-comment-form replied" id="comment-reply-form-3760" method="post" style="display: none" action="#">
+                              <input type="hidden" name="_token" value="mP51LLEbpmRgc34r1WGaHflAUcjtW6w4l131c2hS" />
+                              <div class="union-block">
+                                <div class="form-group">
+                                  <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="" />
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="" />
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
+                              </div>
+                              <div class="feedback-and-agreement">
+                                <div class="agreement-block">
+                                  <input type="checkbox" id="agreement-checkbox-reply-3760" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="3760" required="" />
+                                  <label for="agreement-checkbox-reply-3760" class="custom-checkbox-label">
+                                  <span class="text">I read and agree the</span>
+                                  <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="form-group mt-15">
+                                <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-3760" data-sitekey="6Lfxd9wZAAAAAECxRwkB61F4yn7m8XLvWDF0Yvtw"></div>
+                              </div>
+                              <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment" />
+                              <input type="hidden" name="commentable_id" value="3760" />
+                              <div class="btn-container">
+                                <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="3760">
+                                Add a comment
+                                </button>
+                              </div>
+                            </form>
+                            <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-3760" role="alert" style="display: none"></div>
+                            <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-3760" role="alert" style="display: none">
+                              <p>Your reply is awaiting moderation. We save your draft here</p>
+                            </div>
+                            <ul class="comments-sublist" style="display:none" id="replies-list-3760"></ul>
+                          </li>
+                        </ul>
+                        <div id="pagination-container2"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="sidebar">
+              <div class="widget popular">
+                <div class="header">Popular</div>
+                <div class="body">
+                  <div class="list">
+                    <a href="they-have-decided-to-withdraw-fornite.html" class="item">
+                      <div class="image">
+                        <img src="./images/f1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Fortnite</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="poppy-playtime-mysteries.html" class="item">
+                      <div class="image">
+                        <img src="./images/p1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Poppy</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="when-you-see-someone-passionately-playing-minecraft.html" class="item">
+                      <div class="image">
+                        <img src="./images/m1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Minecraft</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="gta-is-set-in-a-fictional-united-states.html" class="item">
+                      <div class="image">
+                        <img src="./images/g1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Grand Theft Auto V</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                    
+                    <a href="among-us-new-update-how-vents-are-changing.html" class="item">
+                      <div class="image">
+                        <img src="./images/a1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Among us</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="things-that-make-fall-guys-attractive.html" class="item">
+                      <div class="image">
+                        <img src="./images/fa1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Fall guys</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="the-first-trailer-images-of-spiderman-2.html" class="item">
+                      <div class="image">
+                        <img src="./images/s1.png" alt="">
+                      </div>
+                      <div class="content">
+                        <div class="header">Spider man</div>
+                        <div class="rating-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="widget latest">
+                <center><span style="font-size:10px">Advertisement</center>
+<br />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7829188793211907"
+     crossorigin="anonymous"></script>
+<!-- Nam_05/04 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7829188793211907"
+     data-ad-slot="4684317980"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+              
+              <br />
+            </div>
+          </div>
+          <div class="section level-up">
+            <div class="left">
+              <div class="title">Level up Your Performance</div>
+              <div class="description">
+                Ready to become the best? Take your game to the next level with the first customized analytics system for Among us.
+              </div>
+              <a href="#" class="button">Learn more</a>
+            </div>
+            <div class="right">
+              <img src="./images/fortnite-image.png" alt="fortnite" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div>
+            <div class="logo">
+              <a href="https://sguy.net/" class="image">VerbaLearn</a>
+            </div>
+            <div class="description">
+              VerbaLearn team invites you to the world of the finest games and distinctly-reviewed apps. Every day we choose and check zillions of different mobile programs to provide you with entertainment and honest
+              reviews. Our professional editors strive to make VerbaLearn a top-notch source for getting all the fans of iOS and Android games and apps together.
+            </div>
+            <div class="social">
+              <div class="header">Share</div>
+              <div class="body">
+                <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="copyright">
+              © 2022 VerbaLearn - All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      ></script>
+    <script src="./js/pagiSimple.js"></script>
+    <script src="./js/pagination2.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
